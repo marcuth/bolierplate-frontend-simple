@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 
 import { ThemeSwitcher } from "@/components/ui/theme-switcher"
 import { SidebarTrigger } from "@/components/ui/sidebar"
-import Providers from "./providers"
+import Providers from "../providers"
 import "./globals.css"
 
 const geistSans = Geist({
